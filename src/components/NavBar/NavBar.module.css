@@ -1,0 +1,42 @@
+.navBar{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+  padding: 1px 23px 0 23px;
+  max-width: 1400px;
+  margin-top: 22px;
+  box-sizing: border-box;
+}
+
+.icon{
+  color:#aaaaaa;
+  cursor: pointer;
+}
+
+.iconContainer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.iconContainer:hover .icon, .hamIcon:hover{
+  color:#6d6d6d;
+}
+
+.megaphoneIcon{
+  height: 25px;
+  width: 24.8px;
+}
+
+.arrowIcon{
+  height: 14.4px;
+  width: 14.4px;
+}
+
+.hamIcon{
+  padding: 8px;
+  width: 37px;
+  height: 37px;
+  box-sizing: border-box;
+}

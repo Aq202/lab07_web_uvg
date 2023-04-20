@@ -1,0 +1,12 @@
+.page{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo{
+  width: 200px;
+  height: 162px;
+  margin: 14px 0 40px;
+}
