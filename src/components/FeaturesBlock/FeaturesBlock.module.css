@@ -1,0 +1,31 @@
+
+.featuresBlock{
+  margin: 30px auto 48px;
+}
+.featuresBlock h1{
+  font-size: 32px;
+  color:#353748;
+  margin-bottom: auto;
+    padding: 0 0 5px;
+    margin-top: 0;
+}
+
+.subtitle{
+  margin: 0 auto;
+  padding: 0;
+  max-width: none;
+  color: #353748;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.confidenceMessage{
+  font-size: 12px;
+  line-height: 1.35;
+  font-weight: 600;
+  color: #333;
+  margin: 14px auto 0;
+  text-align: center;
+}
