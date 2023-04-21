@@ -5,11 +5,14 @@ import { IoMdMegaphone as MegaphoneIcon } from 'react-icons/io'
 import { CgChevronDown as DownArrow } from 'react-icons/cg'
 import styles from './NavBar.module.css'
 import NavMenu from '../NavMenu/NavMenu'
+import SideMenu from '../SideMenu/SideMenu'
 
 function NavBar() {
   const [isNavbarMenuVisible, setIsNavbarMenuVisible] = useState(false)
+  const [isSideMenuVisible, setIsSideMenuVisible] = useState(false)
 
   const handleMegaphoneIconClick = () => setIsNavbarMenuVisible((val) => !val)
+  const handleMenuIconClick = () => setIsSideMenuVisible((val) => !val)
 
   return (
     <nav className={styles.navBar}>
@@ -20,7 +23,8 @@ function NavBar() {
           isNavbarMenuVisible && <NavMenu />
         }
       </button>
-      <HamburguerMenu className={`${styles.icon} ${styles.hamIcon}`} />
+      <HamburguerMenu className={`${styles.icon} ${styles.hamIcon}`} onClick={handleMenuIconClick} />
+      <SideMenu visible={isSideMenuVisible} setVisible={setIsSideMenuVisible} />
     </nav>
   )
 }

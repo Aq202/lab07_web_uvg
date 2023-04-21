@@ -14,8 +14,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
-        //"prettier"
+        "react",
+        "prettier"
     ],
     "rules": {
         "semi": [2, "never"],
