@@ -18,6 +18,10 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  outline: none;
 }
 
 .iconContainer:hover .icon, .hamIcon:hover{

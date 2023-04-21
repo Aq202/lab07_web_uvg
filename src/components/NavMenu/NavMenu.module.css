@@ -1,0 +1,18 @@
+.navMenu{
+  box-shadow: 0 2.5px 20px 0 rgba(0,0,0,0.15);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px 15px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  animation: fadeIn .5s ease;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+}

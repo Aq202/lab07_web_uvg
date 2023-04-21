@@ -1,0 +1,18 @@
+.navMenuItem{
+  color: #666;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.navMenuItem img{
+  width: 20px;
+  height: 20px;
+}
+
+.navMenuItem:hover{
+  text-decoration: underline;
+}
